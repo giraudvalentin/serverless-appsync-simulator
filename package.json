@@ -1,6 +1,6 @@
 {
   "name": "serverless-appsync-simulator",
-  "version": "0.19.2",
+  "version": "0.19.3",
   "main": "lib/index.js",
   "author": "bboure",
   "license": "MIT",
@@ -21,7 +21,7 @@
     "/lib"
   ],
   "dependencies": {
-    "amplify-appsync-simulator": "https://github.com/giraudvalentin/amplify-appsync-simulator-with-BatchGetItem.git",
+    "amplify-appsync-simulator": "https://github.com/Next-Interactive/amplify-cli.git",
     "amplify-nodejs-function-runtime-provider": "^1.1.6",
     "aws-sdk": "^2.792.0",
     "axios": "^0.21.0",
@@ -33,7 +33,7 @@
     "globby": "^11.0.3",
     "jest": "^26.6.3",
     "lodash": "^4.17.20",
-    "merge-graphql-schemas": "^1.5.8",
+    "@graphql-tools/merge": "^8.2.1",
     "mysql2": "^2.2.5",
     "pg": "^8.6.0"
   },
